@@ -1,8 +1,3 @@
-// import SlimSelect from 'slim-select';
-
-// new SlimSelect({
-//   select: '#selectElement',
-// });
 import { fetchBreeds, fetchBreedById } from './js/cat-api.js';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
