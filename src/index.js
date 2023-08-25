@@ -85,25 +85,3 @@ function addLoader() {
 function removeLoader() {
   loader.classList.remove('loader');
 }
-
-// function numberToSumString(number) {
-//   const numberStr = number.toString();
-//   const length = numberStr.length;
-//   let sumString = '';
-
-//   for (let i = 0; i < length; i++) {
-//     const digit = parseInt(numberStr[i]);
-//     if (digit !== 0) {
-//       if (sumString !== '') {
-//         sumString += '+';
-//       }
-//       sumString += digit * 10 ** (length - i - 1);
-//     }
-//   }
-
-//   return sumString;
-// }
-
-// const number = 5681;
-// const result = numberToSumString(number);
-// console.log(result);
